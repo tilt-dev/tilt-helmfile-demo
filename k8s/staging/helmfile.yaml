@@ -1,0 +1,9 @@
+releases:
+  - name: redis
+    chart: stable/redis
+    values:
+      - redis.yml
+  - name: postgres
+    chart: stable/postgresql
+    values:
+      - postgres.yml
